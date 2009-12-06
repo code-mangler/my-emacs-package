@@ -1,0 +1,27 @@
+(require 'ljupdate)
+(require 'muse-html)
+(require 'muse-latex)
+(require 'muse-texinfo)
+(require 'muse-docbook)
+(require 'muse-project)
+(require 'paren)
+(require 'yasnippet)
+(require 'org-install)
+(require 'cedet)
+(require 'ecb)
+(require 'paren) 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;_ + Color themes
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(require 'color-theme)
+    (color-theme-initialize)
+    (color-theme-euphoria)
+    
+(autoload 'paredit-mode "paredit" "Minor mode for pseudo-structurally editing Lisp code." t)
+
+;(load-file "~/.emacs.d/site-lisp/cedet-1.0pre6/common/cedet.el")
+(global-ede-mode 1)                      ; Enable the Project management system
+(semantic-load-enable-code-helpers)      ; Enable prototype help and smart completion 
+(global-srecode-minor-mode 1)            ; Enable template insertion menu
+

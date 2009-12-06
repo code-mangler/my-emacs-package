@@ -1,0 +1,106 @@
+
+E:\emacs\setup\bin\src\GnuServe2>diff -b -E -w gnuclient.c ..\gnuserv\gnuclient.c 
+87a88,123
+> 
+> // setForeGroundWindow is riped from windowstool.cpp at
+> //          http://cvs.sourceforge.net/viewcvs.py/mayu/mayu/windowstool.cpp?rev=1.13
+> 
+> #define SPI_GETFOREGROUNDLOCKTIMEOUT        0x2000
+> #define SPI_SETFOREGROUNDLOCKTIMEOUT        0x2001
+> 
+> // workaround of SetForegroundWindow
+> //bool setForegroundWindow(HWND i_hwnd)
+> void setForegroundWindow(HWND i_hwnd)
+> {
+>   int nForegroundID = GetWindowThreadProcessId(GetForegroundWindow(), NULL);
+>   int nTargetID = GetWindowThreadProcessId(i_hwnd, NULL);
+>   DWORD sp_time;
+>   //unsigned long sp_time;
+>   //long sp_time;
+>   
+>   //if (!AttachThreadInput(nTargetID, nForegroundID, TRUE))
+>   //return false;
+>   AttachThreadInput(nTargetID, nForegroundID, TRUE);
+> 
+>   SystemParametersInfo(SPI_GETFOREGROUNDLOCKTIMEOUT, 0, &sp_time, 0);
+>   SystemParametersInfo(SPI_SETFOREGROUNDLOCKTIMEOUT, 0, (void *)0, 0);
+> 
+>   SetForegroundWindow(i_hwnd);
+> 
+>   SystemParametersInfo(SPI_SETFOREGROUNDLOCKTIMEOUT, 0, (void *)sp_time, 0);
+>   
+>   AttachThreadInput(nTargetID, nForegroundID, FALSE);
+>   //return true;
+> 
+>   // Added this because - seems to be needed when the Emacs window is not iconified
+>   // (Could this be some timing issue?)
+>   SetForegroundWindow (i_hwnd);
+> }
+> 
+91a128,139
+>     if (TRUE) {
+>       // New version
+>       setForegroundWindow(hWnd);
+>       if (IsIconic (hWnd)) {
+> 	ShowWindow (hWnd, SW_RESTORE);
+>       } else {
+> 	ShowWindow (hWnd, SW_SHOW);
+> 	//SetForegroundWindow (hWnd);
+>       }
+> 
+>     } else {
+>       // Old version
+103a152
+>   }
+173a223
+>     //int wflg = 0;				/* wait for user to finish */
+180d229
+<   int sflg = 0;						/* Start gnuserv flag */
+184a234
+>     int sflg = 0;     /* Start gnuserv flag */
+186d235
+<   int noPathExpansion = 0;			/* skip path expansion */
+214c263
+< 		     "h:p:r:sqfFxenw"
+---
+> 		       "h:p:r:sqfFxew"
+231c280,281
+<       qflg = 0;
+---
+> 	//wflg++;
+> 	qflg--;
+259,262d308
+< 	case 'n':
+< 	  noPathExpansion = 1;
+< 	  break;
+< 
+276c322
+< 	    "usage: %s [-qwfFn] [-h host] [-p port] [-r pathname] [[+line] path] ...\n"
+---
+> 	      "usage: %s [-qwfF] [-h host] [-p port] [-r pathname] [[+line] path] ...\n"
+340c386
+<       send_string(s,"(server-eval-quickly '(progn ");
+---
+> 	send_string(s,"(gnuserv-eval-quickly '(progn ");
+343c389
+<       send_string(s,"(server-eval '(progn ");
+---
+> 	send_string(s,"(gnuserv-eval '(progn ");
+362c408
+<       send_string(s,"(server-edit-files-quickly '(");
+---
+> 	send_string(s,"(gnuserv-edit-files-quickly '(");
+365c411
+<       send_string(s,"(server-edit-files '(");
+---
+> 	send_string(s,"(gnuserv-edit-files '(");
+373,375d418
+<         if ( noPathExpansion )
+< 			strcpy(fullpath,argv[optind]);
+< 		else
+403c446,448
+<     disconnect_from_server(s,FALSE);
+---
+>       //disconnect_from_server(s,FALSE);
+>       // Echo for debugging:
+>       disconnect_from_server(s,TRUE);

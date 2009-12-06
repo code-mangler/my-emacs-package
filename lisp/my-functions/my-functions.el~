@@ -1,0 +1,16 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;_ + My functions
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(defun llt ()
+   (interactive)
+   "Toggle longlines mode on"
+   (longlines-mode 1))
+
+(defun llf ()
+   (interactive)
+   "Toggle longlines mode off"
+   (longlines-mode -1))
+
+
+
+

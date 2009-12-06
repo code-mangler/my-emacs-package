@@ -1,0 +1,38 @@
+;;_ + Classpaths
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(setq swank-clojure-extra-classpaths
+     (list "c:/usr/home/.emacs.d/site-lisp/hsqldb/src" 
+	   "c:/usr/home/.emacs.d/site-lisp/hsqldb/lib/hsqldb.jar"
+	   "c:/usr/home/clojure_files"
+	   "c:/usr/home/compojure/src"
+	   "c:/usr/home/compojure/deps/commons-io-1.4.jar"
+	   "c:/usr/home/compojure/deps/jetty-util-6.1.15.jar"
+	   "c:/usr/home/compojure/deps/grizzly-http-servlet-1.9.10.jar"
+	   "c:/usr/home/compojure/deps/servlet-api-2.5-20081211.jar"
+	   "c:/usr/home/compojure/deps/commons-codec-1.3.jar"
+	   "c:/usr/home/compojure/deps/grizzly-http-webserver-1.9.10.jar"
+	   "c:/usr/home/compojure/deps/commons-fileupload-1.2.1.jar"
+	   "c:/usr/home/compojure/deps/jetty-6.1.15.jar"
+	   "c:/usr/home/ring/src"
+	   "c:/usr/home/ring/deps/clj-html.jar"
+	   "c:/usr/home/ring/deps/clj-html-helpers.jar"
+	   "c:/usr/home/ring/deps/clj-stracktrace.jar"
+	   "c:/usr/home/ring/deps/clj-unit.jar"
+	   "c:/usr/home/ring/deps/httpcore-4.0.jar"
+	   "c:/usr/home/ring/deps/httpcore-nio-4.0.jar"
+	   "c:/usr/home/ring/deps/jetty-6.1.14.jar"
+	   "c:/usr/home/ring/deps/jetty-util-6.1.14.jar"
+	   "c:/usr/home/ring/deps/ring.jar"
+	   "c:/usr/home/ring/deps/servlet-api-2.5-6.1.14.jar"
+	   "c:/apache-ant/lib/ant.jar"
+	   "c:/apache-ant/lib/ant-launcher.jar"
+	   ))
+
+;;_ + Load paths
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/site-lisp/yasnippet-0.6.0c"))
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/site-lisp/etc"))
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/site-lisp/ljupdate"))
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/site-lisp/muse/lisp")
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/site-lisp/cedet-1.0pre6/common"))
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/site-lisp/cedet-1.0pre6/contrib"))
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/site-lisp/ecb-2.40"))

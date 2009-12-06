@@ -1,0 +1,23 @@
+(setq current-language-environment "UTF-8")
+
+; show env var named path
+(getenv "PATH")
+
+; example of setting env var named ¡°path¡±
+; by appending a new path to existing path
+(setenv "PATH"
+  (concat
+   "/Users/mikesmi/jruby-1.4.0/bin" ":"
+   "/Users/mikesmi/ioke/bin" ":"
+   (getenv "PATH")
+  )
+)
+
+(setenv "GEM_HOME" "/Users/mikesmi/jruby-1.4.0/lib/ruby/gems/1.8")
+
+;; applescript
+(defun activate-finder ()
+  (interactive)
+  (shell-command-to-string
+    "osascript -e 'tell application \"Finder\" to activate'"))
+

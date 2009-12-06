@@ -1,0 +1,347 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/jdee/!svn/ver/164/branches/2.4.0/jde/lisp
+END
+jde-tree-widget.el
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-tree-widget.el
+END
+jde-which-method.el
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-which-method.el
+END
+jde-plugins.el
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-plugins.el
+END
+jcomplete.el
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/jdee/!svn/ver/139/branches/2.4.0/jde/lisp/jcomplete.el
+END
+jde-ant.el
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jdee/!svn/ver/139/branches/2.4.0/jde/lisp/jde-ant.el
+END
+jde-compat.el
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-compat.el
+END
+jtags.csh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/jdee/!svn/ver/137/branches/2.4.0/jde/lisp/jtags.csh
+END
+java.bnf
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/jdee/!svn/ver/125/branches/2.4.0/jde/lisp/java.bnf
+END
+jde-parse-expr.el
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jdee/!svn/ver/157/branches/2.4.0/jde/lisp/jde-parse-expr.el
+END
+jde-compile.el
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-compile.el
+END
+jde-junit.el
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/jdee/!svn/ver/157/branches/2.4.0/jde/lisp/jde-junit.el
+END
+jde-juci.el
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jdee/!svn/ver/125/branches/2.4.0/jde/lisp/jde-juci.el
+END
+jde-package.el
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-package.el
+END
+efc.el
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jdee/!svn/ver/144/branches/2.4.0/jde/lisp/efc.el
+END
+jde-sregex.el
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jdee/!svn/ver/125/branches/2.4.0/jde/lisp/jde-sregex.el
+END
+jde-checkstyle.el
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-checkstyle.el
+END
+jde-jdb.el
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-jdb.el
+END
+jde-xref.el
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-xref.el
+END
+jde-class.el
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-class.el
+END
+jde-project.el
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jdee/!svn/ver/152/branches/2.4.0/jde/lisp/jde-project.el
+END
+jde-javadoc.el
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jdee/!svn/ver/157/branches/2.4.0/jde/lisp/jde-javadoc.el
+END
+.dir-locals.el
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jdee/!svn/ver/131/branches/2.4.0/jde/lisp/.dir-locals.el
+END
+jde-complete.el
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-complete.el
+END
+jde-wiz.el
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jdee/!svn/ver/164/branches/2.4.0/jde/lisp/jde-wiz.el
+END
+jde-parse.el
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/jdee/!svn/ver/145/branches/2.4.0/jde/lisp/jde-parse.el
+END
+jde-java-font-lock.el
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jdee/!svn/ver/154/branches/2.4.0/jde/lisp/jde-java-font-lock.el
+END
+jde-stat.el
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-stat.el
+END
+jde-bsh.el
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jdee/!svn/ver/140/branches/2.4.0/jde/lisp/jde-bsh.el
+END
+jde-imenu.el
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-imenu.el
+END
+jde-util.el
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jdee/!svn/ver/163/branches/2.4.0/jde/lisp/jde-util.el
+END
+jde-javadoc-gen.el
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jdee/!svn/ver/139/branches/2.4.0/jde/lisp/jde-javadoc-gen.el
+END
+jde-project-file.el
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-project-file.el
+END
+jde-java-font-lock.api
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/jdee/!svn/ver/83/branches/2.4.0/jde/lisp/jde-java-font-lock.api
+END
+jde-db.el
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-db.el
+END
+ejb-jar_1_1.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jdee/!svn/ver/83/branches/2.4.0/jde/lisp/ejb-jar_1_1.dtd
+END
+jde-help.el
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jdee/!svn/ver/139/branches/2.4.0/jde/lisp/jde-help.el
+END
+beanshell.el
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/jdee/!svn/ver/139/branches/2.4.0/jde/lisp/beanshell.el
+END
+jde-annotations.el
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jdee/!svn/ver/125/branches/2.4.0/jde/lisp/jde-annotations.el
+END
+jde-open-source.el
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jdee/!svn/ver/157/branches/2.4.0/jde/lisp/jde-open-source.el
+END
+jde-ejb.el
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jdee/!svn/ver/157/branches/2.4.0/jde/lisp/jde-ejb.el
+END
+jde.el
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/jdee/!svn/ver/162/branches/2.4.0/jde/lisp/jde.el
+END
+which.el
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/which.el
+END
+jde-dbo.el
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-dbo.el
+END
+jde-run.el
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jdee/!svn/ver/155/branches/2.4.0/jde/lisp/jde-run.el
+END
+jde-java-grammar.el
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-java-grammar.el
+END
+jde-bookmark.el
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/jdee/!svn/ver/139/branches/2.4.0/jde/lisp/jde-bookmark.el
+END
+jde-refactor.el
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/jdee/!svn/ver/156/branches/2.4.0/jde/lisp/jde-refactor.el
+END
+jde-widgets.el
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-widgets.el
+END
+jde-dbs.el
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-dbs.el
+END
+jde-gen.el
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jdee/!svn/ver/158/branches/2.4.0/jde/lisp/jde-gen.el
+END
+jtags
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/jdee/!svn/ver/137/branches/2.4.0/jde/lisp/jtags
+END
+jde-import.el
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jdee/!svn/ver/159/branches/2.4.0/jde/lisp/jde-import.el
+END
+jde-custom.el
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-custom.el
+END
+regress.el
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/regress.el
+END
+jde-bug.el
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-bug.el
+END
+jde-make.el
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/jdee/!svn/ver/127/branches/2.4.0/jde/lisp/jde-make.el
+END
+jde-parse-class.el
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/jdee/!svn/ver/150/branches/2.4.0/jde/lisp/jde-parse-class.el
+END
