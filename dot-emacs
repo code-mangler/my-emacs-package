@@ -1,0 +1,29 @@
+;; enable Common Lisp commands
+(require 'cl)
+
+;; OS type --- are we running Microsoft Windows?
+(defvar running-ms-windows (eq system-type 'windows-nt))
+
+;; add all subdirectories to load-path
+(let ((default-directory "~/.emacs.d/"))
+  (add-to-list 'load-path default-directory)
+  (normal-top-level-add-subdirs-to-load-path))
+ 
+;(defun load-directory (dir)
+;  (mapcar '(lambda (x)
+;             (load-file x))
+;          (directory-files dir t "\\.el$")))
+
+(defun load-directory (dir)
+    (mapc 'load-file (directory-files dir t "\\.el\\'")))
+
+
+(load-directory "~/.emacs.d/lisp/my-functions/")
+
+(if running-ms-windows
+  (load-directory "~/.emacs.d/lisp/os-windows/")
+  (load-directory "~/.emacs.d/lisp/os-mac/")
+)
+
+(load-directory "~/.emacs.d/lisp/prefs/")
+
